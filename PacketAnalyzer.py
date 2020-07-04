@@ -17,7 +17,7 @@ logging.basicConfig(
     handlers=handlers
 )
 
-ports_threshold = 0
+ports_threshold = 3
 syn_threshold = 15
 synFilter = None
 portls = []
