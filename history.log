@@ -1,0 +1,25 @@
+[2020-07-04 14:02:36,833] DEBUG - READY - {[***p4©K3t @ñ4l¥z3r***]} - version 1.0.0/author::cosmog97
+[2020-07-04 14:02:36,834] INFO - Verbose mode: True, NoDNSScan mode: True
+[2020-07-04 14:02:36,834] INFO - Ports threshold: 3, Syn threshold: 15
+[2020-07-04 14:02:36,835] INFO - ASUSN580VD available NICs: ['eth0', 'lo', 'dummy0', 'bond0', 'sit0']
+[2020-07-04 14:02:52,067] DEBUG - READY - {[***p4©K3t @ñ4l¥z3r***]} - version 1.0.0/author::cosmog97
+[2020-07-04 14:02:52,067] INFO - Verbose mode: True, NoDNSScan mode: True
+[2020-07-04 14:02:52,068] INFO - Ports threshold: 3, Syn threshold: 15
+[2020-07-04 14:02:52,069] INFO - ASUSN580VD available NICs: ['eth0', 'lo', 'dummy0', 'bond0', 'sit0']
+[2020-07-04 14:02:56,153] ERROR - [e] NIC ùikdjdfkl is not present or available.
+[2020-07-04 14:02:56,154] ERROR - EXIT - {[***p4©K3t @ñ4l¥z3r***]} - version 1.0.0/author::cosmog97
+[2020-07-04 14:10:16,402] DEBUG - START - {[***p4©K3t @ñ4l¥z3r***]} - version 1.0.0/author::cosmog97
+[2020-07-04 14:10:16,402] INFO - Verbose mode: True, NoDNSScan mode: True
+[2020-07-04 14:10:16,403] INFO - Ports threshold: 3, Syn threshold: 15
+[2020-07-04 14:10:16,404] INFO - ASUSN580VD available NICs: ['eth0', 'lo', 'dummy0', 'bond0', 'sit0']
+[2020-07-04 14:10:18,969] INFO - lo selected. The capture starts now.
+[2020-07-04 14:11:55,747] DEBUG - START - {[***p4©K3t @ñ4l¥z3r***]} - version 1.0.0/author::cosmog97
+[2020-07-04 14:11:55,748] INFO - Verbose mode: True, NoDNSScan mode: True
+[2020-07-04 14:11:55,748] INFO - Ports threshold: 3, Syn threshold: 15
+[2020-07-04 14:11:55,749] INFO - ASUSN580VD available NICs: ['eth0', 'lo', 'dummy0', 'bond0', 'sit0']
+[2020-07-04 14:11:58,726] INFO - lo selected. The capture starts now.
+[2020-07-04 14:15:13,851] DEBUG - START - {[***p4©K3t @ñ4l¥z3r***]} - version 1.0.0/author::cosmog97
+[2020-07-04 14:15:13,852] INFO - Verbose mode: True, NoDNSScan mode: True
+[2020-07-04 14:15:13,853] INFO - Ports threshold: 3, Syn threshold: 15
+[2020-07-04 14:15:13,854] INFO - ASUSN580VD available NICs: ['eth0', 'lo', 'dummy0', 'bond0', 'sit0']
+[2020-07-04 14:15:24,347] INFO - lo selected. The capture starts now.
