@@ -2,6 +2,8 @@
 import sys
 import logging
 import socket
+import signal
+
 
 from scapy.all import *
 from PortFilter import *
@@ -25,6 +27,12 @@ portls = []
 verbose = False
 no_dns = False
 help = False
+
+
+def signal_handler(signal, frame):
+    print("\n Bye, bye! {[***p4©K3t @ñ4l¥z3r***]} - version 1.0.0/author::cosmog97")
+    logging.debug("EXIT - {[***p4©K3t @ñ4l¥z3r***]} - version 1.0.0/author::cosmog97")
+    sys.exit(0)
  
 def check(pkt):
     src_ip = dst_port = ""
@@ -94,6 +102,7 @@ def help_info():
     sys.exit(1)
  
 if __name__ == "__main__":
+    signal.signal(signal.SIGINT, signal_handler)
     if ("-help" in sys.argv) or ("-h" in sys.argv):
         help = True
     if ("-nodns" in sys.argv) or ("-n" in sys.argv):
