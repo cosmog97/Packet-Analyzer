@@ -17,7 +17,7 @@ logging.basicConfig(
     handlers=handlers
 )
 
-ports_threshold = 3
+ports_threshold = 0
 syn_threshold = 15
 synFilter = None
 portls = []
@@ -64,7 +64,7 @@ def check(pkt):
         portls.append(PortFilter(src_ip, dst_port))
         if portls[-1].getPortListLenght() > ports_threshold:
             print("[a] Threshold exceeded > Source IP: " + src_ip + " - No. " + str(portls[-1].getPortListLenght()))
-            logging.warning("[a] Port mapping attempt, threshold exceeded > Source IP: %s - No. %d", src_ip, i.getPortListLenght())
+            logging.warning("[a] Port mapping attempt, threshold exceeded > Source IP: %s - No. %d", src_ip, portls[-1].getPortListLenght())
  
 def select():
     hostname = socket.gethostname()
